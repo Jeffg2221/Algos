@@ -10,5 +10,7 @@ function countDown(num, stopNum){ //num is the parameter
     }
     console.log( "finished")
 
-
+ return countDown
 }
+// this is calling the function ( in other words this is invoking )
+countDown(20, 3); //20 is the arguemnt 
