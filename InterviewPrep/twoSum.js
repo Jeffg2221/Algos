@@ -10,6 +10,8 @@
  * @param {number} target
  * @return {number[]}
  */
+const num1 = [2,7,11,15]
+
 var twoSum = function(nums, target) {
     let sum = []
 
@@ -25,4 +27,4 @@ var twoSum = function(nums, target) {
     }
     return sum
 };
-console.log(twoSum)
+console.log(twoSum(num1,18))
