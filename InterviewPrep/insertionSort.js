@@ -44,15 +44,7 @@ function insertionSort(arr) {
             if (arr[y] > temp) {
                 // copy y over +1 idx
                 arr[y + 1] = arr[y];
-                // what if y is at the beginning
-                //     if (y == 0) {
-                //         arr[y] = temp;
-                //     } 
-                // } else {
-                //     // insert temp
-                //     arr[y+1] = temp;
-                //     break;
-                // }
+
                 arr[y] = temp;
             }
 
